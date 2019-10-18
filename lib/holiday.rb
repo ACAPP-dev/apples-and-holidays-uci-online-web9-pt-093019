@@ -94,6 +94,7 @@ def all_supplies_in_holidays(holiday_hash)
             holiday_puts = holiday_puts + "#{supply}"
           else
             holiday_puts += ",#{supply}"
+          end
 
         end
 

@@ -93,7 +93,7 @@ def all_supplies_in_holidays(holiday_hash)
           if index == 0
             holiday_puts = holiday_puts + "#{supply}"
           else
-            holiday_puts += ",#{supply}"
+            holiday_puts += " ,#{supply}"
           end
 
         end

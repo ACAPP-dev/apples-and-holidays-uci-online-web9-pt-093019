@@ -73,10 +73,10 @@ def all_supplies_in_holidays(holiday_hash)
       binding.pry
 
     end
-    
+
 
   end
-  
+
 end
 
 all_supplies_in_holidays(holiday_hash)

@@ -121,7 +121,7 @@ def all_holidays_with_bbq(holiday_hash)
         if supply == "BBQ"
           return_array << holiday
         end
-        
+      end
 
       binding.pry
     end

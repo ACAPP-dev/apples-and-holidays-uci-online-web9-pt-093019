@@ -95,7 +95,7 @@ def all_supplies_in_holidays(holiday_hash)
         end
 
 
-      binding.pry
+      #binding.pry
 
     end
 puts holiday_puts

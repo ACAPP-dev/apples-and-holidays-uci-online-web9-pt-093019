@@ -89,7 +89,7 @@ def all_supplies_in_holidays(holiday_hash)
         holiday_puts.join("")
       end
 
-      
+
 
       binding.pry
 

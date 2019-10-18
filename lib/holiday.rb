@@ -124,7 +124,7 @@ def all_holidays_with_bbq(holiday_hash)
       end
 
       #binding.pry
-      return_array
+      p return_array
     end
 
   end
@@ -132,4 +132,4 @@ def all_holidays_with_bbq(holiday_hash)
 
 end
 
-#all_holidays_with_bbq(holiday_hash)
+all_holidays_with_bbq(holiday_hash)

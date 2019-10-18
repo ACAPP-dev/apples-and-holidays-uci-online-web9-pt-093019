@@ -88,15 +88,15 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_format = "#{holiday}".split("_").map{|item| item.capitalize}.
         join(" ")
         #holiday_puts = holiday_puts.join(" ")
-        holiday_puts += "  #{holiday_format}: "
+        holiday_puts = "  #{holiday_format}: "
         supplies.each_with_index do |supply, index|
           if index == 0
             holiday_puts = holiday_puts + "#{supply}"
           else
             holiday_puts += " ,#{supply}"
           end
-          holiday_puts = " "
-        end
+          
+        end #end of supplies.each
 
 
       #binding.pry

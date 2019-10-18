@@ -92,6 +92,8 @@ def all_supplies_in_holidays(holiday_hash)
         supplies.each_with_index do |supply, index|
           if index == 0
             holiday_puts = holiday_puts + "#{supply}"
+          else
+            holiday_puts += ",#{supply}"
 
         end
 

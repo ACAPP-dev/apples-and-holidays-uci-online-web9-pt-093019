@@ -123,12 +123,13 @@ def all_holidays_with_bbq(holiday_hash)
         end
       end
 
-      binding.pry
+      #binding.pry
+      return_array
     end
-    return_array
+    
   end
 
 
 end
 
-all_holidays_with_bbq(holiday_hash)
+#all_holidays_with_bbq(holiday_hash)

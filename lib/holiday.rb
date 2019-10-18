@@ -90,7 +90,8 @@ def all_supplies_in_holidays(holiday_hash)
         #holiday_puts = holiday_puts.join(" ")
         holiday_puts = "  #{holiday_puts}: "
         supplies.each_with_index do |supply, index|
-          holiday_puts = holiday_puts + " #{supply}"
+          if index == 0
+            holiday_puts = holiday_puts + "#{supply}"
 
         end
 

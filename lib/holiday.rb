@@ -89,7 +89,7 @@ def all_supplies_in_holidays(holiday_hash)
       #binding.pry
       #if holiday_puts.is_a?(Array)
         holiday_puts.join
-        holiday_puts = "  #{holiday}: "
+        holiday_puts = "  #{holiday_puts}: "
       #else
 
         #holiday_puts = "  #{holiday}: "

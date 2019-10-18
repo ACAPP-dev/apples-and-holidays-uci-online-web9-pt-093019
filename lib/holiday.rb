@@ -88,7 +88,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_puts = "#{holiday}".split("_").map{|item| item.capitalize}
       #binding.pry
       #if holiday_puts.is_a?(Array)
-        holiday_puts.join
+        holiday_puts = holiday_puts.join
         holiday_puts = "  #{holiday_puts}: "
       #else
 

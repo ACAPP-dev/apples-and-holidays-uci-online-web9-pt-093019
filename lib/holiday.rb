@@ -128,8 +128,8 @@ def all_holidays_with_bbq(holiday_hash)
     end
   
   end
-p return_array
+return_array
 
 end
 
-all_holidays_with_bbq(holiday_hash)
+#all_holidays_with_bbq(holiday_hash)
